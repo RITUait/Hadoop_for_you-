@@ -1,0 +1,918 @@
+    1  gcc pipe.c
+    2  clear
+    3  gcc pipe.c
+    4  clear
+    5  gcc pipe.c
+    6  ./a.out
+    7  clear
+    8  ./a.out
+    9  clear
+   10  gcc pipe.c
+   11  ./a.out
+   12  clear
+   13  gcc pipe.c
+   14  ./a.out
+   15  ./a.outclear
+   16  clear
+   17  gcc readwrite.c
+   18  clear
+   19  gcc readwrite.c
+   20  clear
+   21  gcc readwrite.c
+   22  gcc readwrite.c -lpthread
+   23  ./a.out
+   24  clear
+   25  gcc readwrite.c -lpthread
+   26  ./a.out
+   27  gcc readwrite.c -lpthread
+   28  ./a.out
+   29  gcc readwrite.c -lpthread
+   30  ./a.out
+   31  gcc readwrite.c -lpthread
+   32  ./a.out
+   33  gcc readwrite.c -lpthread
+   34  ./a.out
+   35  gcc readwrite.c -lpthread
+   36  ./a.out
+   37  gcc readwrite.c -lpthread
+   38  ./a.out
+   39  gcc readwrite.c -lpthread
+   40  ./a.out
+   41  gcc pipe.c
+   42  ./a.out
+   43  gcc pipe.c
+   44  ./a.out
+   45  gcc pipe.c
+   46  ./a.out
+   47  gcc pipe.c
+   48  ./a.out
+   49  gcc pipe.c
+   50  ./a.out
+   51  gcc readwrite.c -lpthread
+   52  ./a.out
+   53  gcc pipe.c
+   54  ./a.out
+   55  gcc pipe.c
+   56  ./a.out
+   57  gcc pipe.c
+   58  ./a.out
+   59  gcc readwrite.c -lpthread
+   60  ./a.out
+   61  gcc readwrite.c -lpthread
+   62  ./a.out
+   63  gcc readwrite.c -lpthread
+   64  gcc pipe.c
+   65  ./a.out
+   66  gedit shared1.c
+   67  gedit pandc.c
+   68  gcc pandc.c -lpthread
+   69  gedit pandc.c
+   70  gcc panc.c -lpthread
+   71  gcc pandc.c -lpthread
+   72  gedit kajl.c
+   73  gcc lajl.c -lpthread
+   74  gcc kajl.c -lpthread
+   75  ls
+   76  pwd
+   77  gedit kajl.c
+   78  gedit kajl.c 
+   79  gcc kajl.c -lpthread
+   80  gedit kajl.c 
+   81  gcc kajl.c -lpthread
+   82  ./a.out
+   83  gedit shared1.c
+   84  gedit shared2.c
+   85  gcc shared1.c -osha
+   86  gedit shared1.c
+   87  gcc shared1.c -osha
+   88  gedit shared1.c
+   89  gcc shared1.c -osha
+   90  gcc shared2.c -oshh
+   91  gedit shared2.c
+   92  gcc shared2.c -oshh
+   93  gedit shared2.c
+   94  gcc shared2.c -oshh
+   95  gcc shared1.c -osha
+   96  ./sh
+   97  ./shh
+   98  gedit shared2.c
+   99  gcc shared2.c -oshh
+  100  gcc shared1.c -osha
+  101  ./sha
+  102  gcc shared1.c -osha
+  103  gcc shared2.c -oshh
+  104  ./shh
+  105  gedit shared2.c
+  106  gcc shared2.c -oshar
+  107  ./shar
+  108  gedit shared2.c
+  109  gcc shared1.c -oshared
+  110  gcc shared2.c -oshar
+  111  ./shar
+  112  gedit shared2.c
+  113  gcc shared2.c -oshar
+  114  ./shar
+  115  ./shared
+  116  gcc shared1.c -oshared
+  117  gedit shared1.c
+  118  gcc shared2.c -orana
+  119  ./rana
+  120  gedit shared1.c
+  121  gcc shared2.c -oshar
+  122  ./shar
+  123  gedit shared1.c
+  124  gcc shared2.c -oshar
+  125  ./shar
+  126  gcc shared2.c -oshar
+  127  ./shar
+  128  gcc shared1.c -okajol
+  129  gedit shared2.c
+  130  gcc shared1.c -okajol
+  131  gcc shared1.c -okajol
+  132  gcc shared2.c -oshar
+  133  ./shar
+  134  gedit shared2.c
+  135  gcc shared2.c -oshar
+  136  ./shar
+  137  gcc shared1.c -oshared
+  138  gcc shared2.c -or
+  139  ./r
+  140  gcc shared1.c -ok
+  141  gcc pandc.c -lpthread
+  142  ./a.out
+  143  gcc shared2.c -or
+  144  ./r
+  145  ls
+  146  gedit pipe.c &
+  147  gedit header.h &
+  148  gedit pc.c
+  149  gedit pc.c &
+  150  gcc pc.c -lpthread
+  151  ./a.out
+  152  gcc pc.c -lpthread
+  153  ./a.out
+  154  gcc pc.c -lpthread
+  155  ./a.out
+  156  gcc pc.c -lpthread
+  157  ./a.out
+  158  gcc pc.c -lpthread
+  159  ./a.out
+  160  gcc pc.c -lpthread
+  161  ./a.out
+  162  gcc pc.c -lpthread
+  163  ./a.out
+  164  gcc pc.c -lpthread
+  165  ./a.out
+  166  gcc pc.c -lpthread
+  167  ./a.out
+  168  gcc pc.c -lpthread
+  169  ./a.out
+  170  gcc pc.c -lpthread
+  171  ./a.out
+  172  gcc pc.c -lpthread
+  173  ./a.out
+  174  gcc pc.c -lpthread
+  175  ./a.out
+  176  gcc pc.c -lpthread
+  177  ./a.out
+  178  gedit shm1.c
+  179  man fgetc
+  180  man strcpy
+  181  man shmget
+  182  gedit shm.h
+  183  gedit shm1.c
+  184  gcc shm1.c
+  185  gcc shm2.c
+  186  gcc shm1.c
+  187  gcc shm1.c -o one
+  188  ./one
+  189  gcc shm1.c -o one
+  190  ./one
+  191  man shmat
+  192  gedit shm2.c -o two
+  193  gcc shm2.c -o two
+  194  ./two
+  195  gcc shm2.c -o two
+  196  ./two
+  197  gcc shm2.c -o two
+  198  ./two
+  199  gcc shm2.c -o two
+  200  ./two
+  201  gcc shm2.c -o two
+  202  ./two
+  203  gcc shm2.c -o two
+  204  ./two
+  205  gcc shm2.c -o two
+  206  ./two
+  207  clear
+  208  gcc shm2.c -o two
+  209  ./two
+  210  gcc pc.c -lpthread
+  211  ./a.out
+  212  gcc pc.c -lpthread
+  213  ./a.out
+  214  man grep
+  215  man shmget
+  216  gcc shm2.c -o two
+  217  ./two
+  218  gcc shm2.c -o two
+  219  ./two
+  220  gcc shm1.c -o one
+  221  ./one
+  222  gcc shm1.c -o one
+  223  ./one
+  224  gcc shm1.c -o one
+  225  ./one
+  226  gcc shm1.c -o one
+  227  ./one
+  228  clear
+  229  gcc shm1.c -o one
+  230  ./one
+  231  gcc pc.c -lpthread
+  232  ./a.out
+  233  gedit vikasclt.c
+  234  gedit vikasclt.c &
+  235  gcc vikasclt.c
+  236  ./a.out
+  237  gcc vikpc.c &
+  238  gedit vikpc.c &
+  239  gcc vikpc.c -lpthread
+  240  gcc vikpc.c
+  241  gcc vikpc.c -lpthread
+  242  clear
+  243  gcc vikpc.c -lpthread
+  244  clear
+  245  gcc vikpc.c -lpthread
+  246  ./a.out
+  247  gcc vikpc.c -lpthread
+  248  ./a.out
+  249  gcc ser.c
+  250  ./a.out
+  251  gcc ser.c
+  252  ./a.out
+  253  gcc ser.c
+  254  ./a.out
+  255  gcc vikpc.c -lpthread
+  256  ./a.out
+  257  gcc vikpc.c -lpthread
+  258  ./a.out
+  259  gcc vikpc.c -lpthread
+  260  ./a.out
+  261  gcc vikpc.c -lpthread
+  262  ./a.out
+  263  gcc vikpc.c -lpthread
+  264  ./a.out
+  265  gcc vikpc.c -lpthread
+  266  ./a.out
+  267  gcc vikpc.c -lpthread
+  268  ./a.out
+  269  gcc vikpc.c -lpthread
+  270  ./s.out
+  271  ./a.out
+  272  gcc vikasclt.c 
+  273  ./a.out
+  274  gcc vikasser.c
+  275  gcc vikasser.c 
+  276  gcc vikaster.c
+  277  gcc vikasser.c
+  278  ./a.out
+  279  gcc vikasser.c
+  280  ./a.out
+  281  gcc vikasser.c
+  282  ./a.out
+  283  gcc vikasser.c
+  284  ./a.out
+  285  gcc vikasser.c 
+  286  ./a.out
+  287  gcc vikasclt.c
+  288  ./a.out
+  289  gcc vikasclt.c
+  290  gedit clt.c &
+  291  gedit ser.c &
+  292  gcc vikpc.c -lpthread
+  293  .a.out
+  294  ./a.out
+  295  gcc vikpc.c -lpthread
+  296  ./a.out
+  297  gcc vikpc.c -lpthread
+  298  ./a.out
+  299  gcc vikpc.c -lpthread
+  300  ./a.out
+  301  gcc vikpc.c -lpthread
+  302  ./a.out
+  303  gcc vikpc.c -lpthread
+  304  ./a.out
+  305  gcc vikpc.c -lpthread
+  306  ./a.out
+  307  clear
+  308  gcc vikpc.c -lpthread
+  309  ./a.out
+  310  gcc clt.c 
+  311  ./a.out
+  312  gcc clt.c 
+  313  ./a.out
+  314  gcc clt.c 
+  315  ./a.out
+  316  man shmat
+  317  gcc clt.c 
+  318  ./a.out
+  319  gcc clt.c 
+  320  ./a.out
+  321  gcc clt.c 
+  322  ./a.out
+  323  gcc clt.c 
+  324  ./a.out
+  325  gcc clt.c 
+  326  ./a.out
+  327  gcc clt.c 
+  328  ./a.out
+  329  gcc clt.c 
+  330  ./a.out
+  331  gcc vikpc.c -lpthread
+  332  ./a.out
+  333  gcc ser.c 
+  334  ./a.out
+  335  gcc vikpc.c -lpthread
+  336  ./a.out
+  337  gedit struct.c
+  338  gcc struct.c
+  339  gedit struct.c
+  340  gcc struct.c
+  341  gedit struct.c
+  342  gcc struct.c
+  343  gedit struct.c
+  344  gcc struct.c
+  345  gedit struct.c
+  346  gcc struct.c
+  347  gedit struct.c
+  348  gcc struct.c
+  349  gedit struct.c
+  350  gcc struct.c
+  351  gedit struct.c
+  352  gcc struct.c
+  353  gedit struct.c
+  354  gcc struct.c
+  355  gedit struct.c
+  356  gcc struct.c
+  357  gedit struct.c
+  358  gcc struct.c
+  359  ./a.out
+  360  gedit struct.c
+  361  gcc struct.c
+  362  ./a.out
+  363  gedit struct.c
+  364  gcc struct.c
+  365  gedit struct.c
+  366  gcc struct.c
+  367  ./a.out
+  368  gedit struct.c
+  369  gcc struct.c
+  370  ./a.out
+  371  gedit struct.c
+  372  ./a.out
+  373  gcc struct.c
+  374  ./a.out
+  375  gedit struct.c
+  376  gcc struct.c
+  377  ./a.out
+  378  gedit struct.c
+  379  gcc struct.c
+  380  ./a.out
+  381  gedit struct.c
+  382  gcc struct.c
+  383  ./a.out
+  384  gedit struct.c
+  385  gcc struct.c
+  386  ./a.out
+  387  gedit struct.c
+  388  gcc struct.c
+  389  ./a.out
+  390  gedit struct.c
+  391  gcc struct.c
+  392  ./a.out
+  393  gedit struct.c
+  394  gcc struct.c
+  395  ./a.out
+  396  gedit struct.c
+  397  gcc struct.c
+  398  ./a.out
+  399  gedit struct.c
+  400  gcc struct.c
+  401  gedit struct.c
+  402  gcc struct.c
+  403  ./a.out
+  404  gedit struct.c
+  405  gcc struct.c
+  406  ./a.out
+  407  gcc struct.c
+  408  gedit struct.c
+  409  gcc struct.c
+  410  gedit struct.c
+  411  gcc struct.c
+  412  ./a.out
+  413  gedit struct.c
+  414  gcc struct.c
+  415  ./a.out
+  416  gedit struct.c
+  417  gcc struct.c
+  418  ./a.out
+  419  gedit struct.c
+  420  gcc struct.c
+  421  ./a.out
+  422  gedit struct.c
+  423  gcc struct.c
+  424  ./a.out
+  425  gedit struct.c
+  426  gcc struct.c
+  427  gedit struct.c
+  428  gcc struct.c
+  429  ./a.out
+  430  gedit struct.c
+  431  gcc struct.c
+  432  ./a.out
+  433  gedit struct.c
+  434  gcc struct.c
+  435  ./a.out
+  436  gedit struct.c
+  437  gcc struct.c
+  438  gedit struct.c
+  439  gcc struct.c
+  440  ./a.out
+  441  gedit struct.c
+  442  gcc struct.c
+  443  ./a.out
+  444  gedit struct.c
+  445  gcc struct.c
+  446  ./a.out
+  447  gedit struct.c
+  448  gcc struct.c
+  449  ./a.out
+  450  gedit struct.c
+  451  gcc struct.c
+  452  ./a.out
+  453  gedit struct.c
+  454  gcc struct.c
+  455  ./a.out
+  456  gedit struct.c
+  457  gcc struct.c
+  458  gedit struct.c
+  459  gcc struct.c
+  460  gedit struct.c
+  461  gcc struct.c
+  462  gedit struct.c
+  463  gcc struct.c
+  464  ./a.out
+  465  gedit struct.c
+  466  gcc struct.c
+  467  gedit struct.c
+  468  gcc struct.c
+  469  gedit struct.c
+  470  gcc struct.c
+  471  ./a.out
+  472  gedit matrix.c &
+  473  gcc matrix.c 
+  474  ./a.out
+  475  gcc matrix.c 
+  476  ./a.out
+  477  gedit dll.c &
+  478  gcc dll.c 
+  479  ./a.out
+  480  gcc dll.c 
+  481  ./a.out
+  482  gcc matrix.c 
+  483  ./a.out
+  484  gcc dll.c 
+  485  ./a.out
+  486  gcc dll.c 
+  487  ./a.out
+  488  gcc dll.c 
+  489  ./a.out
+  490  gcc dll.c 
+  491  ./a.out
+  492  gcc dll.c 
+  493  ./a.out
+  494  gcc dll.c 
+  495  ./a.out
+  496  gcc dll.c 
+  497  ./a.out
+  498  gcc dll.c 
+  499  ./a.out
+  500  gcc dll.c 
+  501  ./a.out
+  502  gcc dll.c 
+  503  ./a.out
+  504  gcc dll.c 
+  505  ./a.out
+  506  gcc dll.c 
+  507  ./a.out
+  508  gcc dll.c 
+  509  ./a.out
+  510  gcc matrix.c 
+  511  ./a.out
+  512  gcc dll.c 
+  513  ./a.out
+  514  gedit dcminmax.cpp
+  515  gedit dcminmax.cpp &
+  516  g++ dcminmax.cpp
+  517  ./a.out
+  518  3
+  519  4
+  520  g++ dcminmax.cpp
+  521  ./a.out
+  522  g++ dcminmax.cpp
+  523  ./a.out
+  524  g++ dcminmax.cpp
+  525  ./a.out
+  526  g++ dcminmax.cpp
+  527  ./a.out
+  528  g++ dcminmax.cpp
+  529  ./a.out
+  530  g++ dcminmax.cpp
+  531  ./a.out
+  532  g++ dcminmax.cpp
+  533  ./a.out
+  534  g++ dcminmax.cpp
+  535  ./a.out
+  536  g++ dcminmax.cpp
+  537  ./a.out
+  538  cd documents
+  539  cd Documents/
+  540  ls
+  541  4201/
+  542  cd 4201/
+  543  g++ 1.cpp
+  544  ./a.out
+  545  g++ 1.cpp
+  546  ./a.out
+  547  cd Documents/
+  548  cd 4201/
+  549  g++ 1.cpp
+  550  ./a.out
+  551  cd Documents/4201/
+  552  gedit 1.cpp &
+  553  g++ 1.cpp
+  554  ./a.out
+  555  g++ 1.cpp
+  556  ./a.out
+  557  g++ 1.cpp
+  558  ./a.out
+  559  g++ 1.cpp
+  560  ./a.out
+  561  g++ 1.cpp
+  562  ./a.out
+  563  g++ 1.cpp
+  564  ./a.out
+  565  g++ 1.cpp
+  566  ./a.out
+  567  cd Documents/4201/
+  568  gedit 1.cpp &
+  569  g++ 1.cpp
+  570  ./a.out
+  571  g++ 1.cpp
+  572  ./a.out
+  573  g++ 1.cpp
+  574  ./a.out
+  575  g++ 1.cpp
+  576  ./a.out
+  577  g++ 1.cpp
+  578  ./a.out
+  579  g++ 1.cpp
+  580  cd Documents/4201/
+  581  g++ 1.cpp
+  582  cd Documents/4201/
+  583  gedit 1.cpp &
+  584  g++ 1.cpp
+  585  ./a.out
+  586  g++ 1.cpp
+  587  ./a.out
+  588  g++ 1.cpp
+  589  ./a.out
+  590  g++ 1.cpp
+  591  ./a.out
+  592  g++ 1.cpp
+  593  ./a.out
+  594  g++ 1.cpp
+  595  ./a.out
+  596  g++ 1.cpp
+  597  ./a.out
+  598  g++ 1.cpp
+  599  ./a.out
+  600  g++ 1.cpp
+  601  ./a.out
+  602  cd Documents/4201/
+  603  g++ 1.cpp
+  604  sudo
+  605  help
+  606  hash
+  607  gedit 1.cpp &
+  608  cd Documents/4201/
+  609  gedit 1.cpp &
+  610  amap
+  611  apt-mark
+  612  arithmetic
+  613  sudo apt install bsdgames
+  614  history
+  615  find ex*.txt
+  616  _find ex*.txt
+  617  sfind ex*.txt
+  618  cat/proc/meminfo
+  619  passwd [ubuntu]
+  620  passwd bhrt
+  621  passwd ubuntu
+  622  usermod -l ubuntu2 ubuntu
+  623  cd Documents/4201/
+  624  gedit 1.cpp &
+  625  cewl
+  626  crunch
+  627  httrack
+  628  adventure
+  629  man ascii
+  630  towel.blinkenlights.net
+  631  echo "a"
+  632  man ascii
+  633  date -d@1234567890
+  634  date -d@1
+  635  man ascii
+  636  sudo dmidecode | more
+  637  adventure
+  638  say -v Vicki "Hi, I'am a mac"
+  639  sudo apt install gnustep-gui-runtime
+  640  clear
+  641  g++
+  642  eclipse
+  643  cd Documents/4201/
+  644  g++ dsa1.cpp
+  645  ./a.out
+  646  cd Documents/4201/
+  647  g++ dsa1.cpp
+  648  ./a.out
+  649  g++ dsa1.cpp
+  650  cd Documents/4201/
+  651  g++ dsa1.cpp
+  652  ./a.out
+  653  g++ maths.cpp
+  654  g++ dsa1.cpp
+  655  g++ maths.cpp
+  656  ./a.out
+  657  g++ maths.cpp
+  658  ./a.out
+  659  g++ maths.cpp
+  660  ./a.out
+  661  g++ maths.cpp
+  662  ./a.out
+  663  g++ maths.cpp
+  664  ./a.out
+  665  g++ maths.cpp
+  666  ./a.out
+  667  g++ maths.cpp
+  668  ./a.out
+  669  g++ maths.cpp
+  670  ./a.out
+  671  cd Home
+  672  cd Documents
+  673  g++ dsa1.cpp
+  674  cd 4201
+  675  g++ dsa1.cpp
+  676  ./a.out
+  677  cd Documents
+  678  cd 4201
+  679  g++ 1.cpp
+  680  clear
+  681  g++ dsa1.cpp
+  682  ./a.out
+  683  g++ dsa1.cpp
+  684  ./a.out
+  685  cd Documents
+  686  cd 4201
+  687  g++ dsa1.cpp
+  688  ./a.out
+  689  ping 192.168.55.1
+  690  gedit socket.cpp &
+  691  gedit clie.c &
+  692  gcc clie.c -o clie
+  693  gcc client.c -o client
+  694  gcc server.c -o server
+  695  gcc client.c -o client
+  696  gcc server.c -o server
+  697  gcc client.c -o client
+  698  clear
+  699  gcc client.c -o client
+  700  clear
+  701  gcc server.c -o server
+  702  gedit client.c &
+  703  clear
+  704  gcc client.c -o client
+  705  ./a.out
+  706  clear
+  707  gcc client.c -o client
+  708  ./a.out
+  709  clear
+  710  gcc client.c -o client
+  711  gedit new.c &
+  712  gcc new.c -o new
+  713  gcc new.c 
+  714  clear
+  715  gcc new.c -o new
+  716  clear
+  717  gcc client.c 
+  718  ./a.out
+  719  gcc client.c -o client
+  720  ./a.out
+  721  gcc client.c -o client
+  722  ./a.out
+  723  gcc client.c -o client
+  724  ./a.out
+  725  gcc client.c -o client
+  726  ./a.out
+  727  gcc client.c -o client
+  728  ./a.out
+  729  clear
+  730  gcc client.c -o client
+  731  ./a.out
+  732  client
+  733  clear
+  734  gcc client.c -o client
+  735  g++ client.c -o client
+  736  g++ client.cpp -o client
+  737  clear
+  738  g++ client.cpp -o client
+  739  clear
+  740  g++ client.cpp -o client
+  741  ./a.out
+  742  g++ client.cpp -o client
+  743  ./a.out
+  744  ssh-keygen -t rsa -P ""
+  745  cat $HOME/.ssh/id_rsa.pub>>$HOME/.ssh/authorized_keys
+  746  ssh localhost
+  747  who
+  748  java --version
+  749  java -version
+  750  sudo apt-get default-jdk
+  751  sudo apt-get install default-jdk
+  752  apt-cache search jdk
+  753  export javac -version
+  754  sftp mitu@192.168.55.112
+  755  ssh  mitu@192.168.55.112
+  756  ssh localhost
+  757  which sshd
+  758  sudo apt install openssh-server
+  759  which sshd
+  760  ssh localhost
+  761  who
+  762  sudo mv hadoop/ /usr/local
+  763  ls -l /usr/local
+  764  update-alternatives --config java
+  765  gedit .bashrc
+  766  source .bashrc
+  767  gedit .bashrc
+  768  env
+  769  gedit .bashrc
+  770  sftp mitu@192.168.55.112
+  771  sudo mkdir -p /app/hadoop/tmp/
+  772  sudo chown ubuntu:ubuntu /app/hadoop/tmp/
+  773  sudo mkdir -p /usr/local/hadoop_store/hdfs/namenode
+  774  sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode
+  775  sudo chown -R ubuntu:ubuntu /usr/local/hadoop_store
+  776  hadoop version
+  777  hadoop namenode -format
+  778  ls -l/usr/local/
+  779  ls -l/usr/local
+  780  ls -l /usr/local/
+  781  ls -l /usr/local/hadoop_store/
+  782  start-all.sh
+  783  jps
+  784  hadoop fs -mkdir /input
+  785  cat > fruits.txt
+  786  cat fruits.txt
+  787  hadoop fs -put fruits.txt /input
+  788  hadoop fs -cat /input/fruits.txt
+  789  sftp mitu@192.168.55.112
+  790  ls
+  791  mkdir words
+  792  cp WordCount.java words
+  793  cp \.java words
+  794  cp hadoop-core-1.2.1.jar words
+  795  cd words
+  796  ls
+  797  javac WordCount.java -classpath hadoop-core-1.2.1.jar
+  798  ls
+  799  cd ..
+  800  jar -evf words.jar -C words/ .
+  801  jar -cvf words.jar -C words/ .
+  802  hadoop jar words.jar WordCount /input /output
+  803  hadoop fs -cat /output/part-r-00000
+  804  cd words
+  805  ls
+  806  cd ..
+  807  hadoop jar words.jar WordCount /input /output
+  808  hadoop fs -rms /output
+  809  hadoop fs -rms/output
+  810  hadoop fs -rmr /output
+  811  hadoop jar words.jar WordCount /input /output
+  812  sftp mitu@192.168.55.112
+  813  cd cyber
+  814  ls
+  815  javac WordCount.java -classpath hadoop-core-1.2.1.jar
+  816  javac Cyber.java -classpath hadoop-core-1.2.1.jar
+  817  ls
+  818  cd ..
+  819  hadoop jar -cat /out/part-00000
+  820  hadoop fs -mkdir /in
+  821  hadoop fs -put sample.txt /in
+  822  cd Cyber/
+  823  cd cyber/
+  824  javac Cyber.java -classpath hadoop-core-1.2.1.jar 
+  825  cd ..
+  826  jar -cvf cybr.jar -c cyber/ .
+  827  jar -cvf cybr.jar -c Cyber/ .
+  828  jar -cvf cybr.jar -C cyber/ .
+  829  hadoop jar cybr.jar Cyber /in /out
+  830  hadoop fs -cat /out/part-00000
+  831  mkdir datasets
+  832  cd datasets
+  833  sftp mitu@192.168.55.112
+  834  hadoop fs -mkdir /input1
+  835  cd datasets/
+  836  hadoop fs -rmdir /input1
+  837  cd ..
+  838  hadoop fs -rmdir /input1
+  839  hadoop fs -mkdir /input1
+  840  cd datasets/
+  841  hadoop fs -put * /input1
+  842  ls
+  843  cd ..
+  844  ls
+  845  sftp mitu@192.168.55.112
+  846  cd temp/
+  847  javac MyMax.java  -classpath hadoop-core-1.2.1.jar 
+  848  cd ..
+  849  jar -cvf MyMax.jar -C datasets/ .
+  850  hadoop jar MyMax.jar MyMax /in /out
+  851  cd datasets/
+  852  javac MyMax.java -classpath hadoop-core-1.2.1.jar 
+  853  cd ..
+  854  jar -cvf cybr.jar -C datasets/
+  855  jar -cvf cybr.jar -C datasets/ .
+  856  hadoop jar cybr.jar MyMax /input1 /output1
+  857  hadoop fs -cat /output1/part-r-00000
+  858  ifconfig
+  859  R
+  860  cat first.r
+  861  Rscript first.r
+  862  sudo apt-get install libxml2
+  863  sudo apt-get install libxml2*
+  864  sftp mitu@192.168.55.112
+  865  hadoop fs -cat /user/hive/warehouse/college.db/student/000000_0;
+  866  hadoop fs -cat /user/hive/warehouse/college.db/student1/000000_0;
+  867  hadoop fs -cat /user/hive/warehouse/college.db/student1/000000_0_copy_1;
+  868  jar -cvf words.jar -C words/ .
+  869  hadoop jar words.jar WordCount
+  870  hadoop jar words.jar WordCount/user/hive/warehouse/college.db/student1 /outs
+  871  hadoop jar words.jar WordCount /user/hive/warehouse/college.db/student1 /outs
+  872  hadoop fs -cat /outs/part-r-00000
+  873  sftp mitu@192.168.55.112
+  874  sudo dpkg -i rstudio-1.0.153-amd64.deb
+  875  sudo apt-get install libjpeg62
+  876  sudo apt-get -f install libjpeg62
+  877  sudo apt-get -f install 
+  878  sudo dpkg -i rstudio-1.0.153-amd64.deb
+  879  sftp mitu@192.168.55.112
+  880  sudo mv hive/ /usr/local
+  881  gedit .bashrc
+  882  source .bashrc
+  883  start-all.sh
+  884  jps
+  885  hadoop fs -mkdir /tmp
+  886  hadoop fs -mkdir -p /user/hive/warehouse
+  887  hadoop fs -chmod g+w /tmp
+  888  hadoop fs -chmod -R g+w /user/hive/warehouse
+  889  hive
+  890  sudo apt-install r-bash-core
+  891  sudo apt-install R-bash-core
+  892  sudo apt install R-bash-core
+  893  sudo apt-get install R-bash-core
+  894  R
+  895  sudo apt install r-base-core
+  896  ls -l /usr/local/hive/
+  897  ls -l 
+  898  ls -l /usr/local/
+  899  install package reshapeto
+  900  install package reshape_to
+  901  install package reshape2
+  902  sftp mitu@192.168.55.112
+  903  cat fruits.txt
+  904  cat fruits.txt | Rscript mapper.r
+  905  cat fruits.txt | Rscript mapper.r | sort
+  906  cat fruits.txt | Rscript mapper.r | sort | Rscript reducer.r
+  907  start-all.sh
+  908  hadoop fs -mkdir /input2
+  909  hadoop fs  -put fruits.txt /input2
+  910  locate hadoop-streaming-
+  911  hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.6.3.jar
+  912  hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.6.3.jar -file mapper.r -mapper mapper.r -file reducer.r -reducer reducer.r -input /input2 -output /output11
+  913  hadoop fs -cat /output11/part-00000
+  914  history
+  915  touch commands.txt
+  916  history < commands.txt
+  917  less commands.txt
+  918  history > commands.txt
